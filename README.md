@@ -14,7 +14,7 @@ In this application, the user can:
 3. Delete the items present in the cart.
 4. Empty the cart.
 
-The above functioanlity is implemented in PHP. The prodcuts and the metadata about it is fetched from the shopping.com API. 
+The above functioanlity is implemented in PHP. The prodcuts and the metadata about it is fetched from the shopping.com API (eBay Commer Network API or ECN API). 
 Product category (such as Computer Accessories, Software Storage, Hardware, Input, etc.) is fetched using [**Get Category Tree by ID**](http://developer.ebaycommercenetwork.com/docs/API_Use_Cases#34). The list of different types of electronic items in each category is fetched using the [**Include all descendants in category tree**](http://developer.ebaycommercenetwork.com/docs/API_Use_Cases#35).  
 The Search by Keyword feature is implemented by sending the keyword as a parameter to shopping.com APIs [**Search By Keyword**](http://developer.ebaycommercenetwork.com/docs/API_Use_Cases#1) url. 
 
